@@ -1,0 +1,46 @@
+{
+  "name": "micro-xpress-core",
+  "version": "1.0.0",
+  "description": "Minimalistic, fast and powerful node.js microservice framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvharish/micro-xpress-core.git"
+  },
+  "keywords": [
+    "micro-xpress-core",
+    "micro-xpress",
+    "micro",
+    "express",
+    "xpress",
+    "framework",
+    "web",
+    "http",
+    "rest",
+    "restful",
+    "graphql",
+    "router",
+    "app",
+    "api",
+    "microservice",
+    "webservice",
+    "core"
+  ],
+  "author": "N V Harish <nv.harish@outlook.com> (https://nvharish.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nvharish/micro-xpress-core/issues"
+  },
+  "homepage": "https://github.com/nvharish/micro-xpress-core#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0"
+  }
+}
