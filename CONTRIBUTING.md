@@ -1,6 +1,6 @@
-# Contributing to MicroXpress Utils
+# Contributing to MicroXpress Core
 
-Thank you for considering contributing to **MicroXpress Utils**! Your contributions are essential for improving and maintaining this project. Please follow the guidelines below to ensure a smooth contribution process.
+Thank you for considering contributing to **MicroXpress Core**! Your contributions are essential for improving and maintaining this project. Please follow the guidelines below to ensure a smooth contribution process.
 
 ---
 
@@ -8,8 +8,8 @@ Thank you for considering contributing to **MicroXpress Utils**! Your contributi
 
 ### 1. Reporting Issues
 
--   Search the [issue tracker](https://github.com/nvharish/micro-xpress-utils/issues) to ensure the problem hasn’t been reported yet.
--   If not found, create a [new issue](https://github.com/nvharish/micro-xpress-utils/issues/new).
+-   Search the [issue tracker](https://github.com/nvharish/micro-xpress-core/issues) to ensure the problem hasn’t been reported yet.
+-   If not found, create a [new issue](https://github.com/nvharish/micro-xpress-core/issues/new).
 -   Provide as much detail as possible, including:
     -   Steps to reproduce the issue.
     -   Expected and actual results.
@@ -17,7 +17,7 @@ Thank you for considering contributing to **MicroXpress Utils**! Your contributi
 
 ### 2. Suggesting Features
 
--   Open a feature request in the [issue tracker](https://github.com/nvharish/micro-xpress-utils/issues/new).
+-   Open a feature request in the [issue tracker](https://github.com/nvharish/micro-xpress-core/issues/new).
 -   Clearly describe the feature and its use case.
 -   Include examples of how it might be used, if possible.
 
@@ -25,11 +25,11 @@ Thank you for considering contributing to **MicroXpress Utils**! Your contributi
 
 #### Step 1: Fork and Clone the Repository
 
-1. Fork the repository from [GitHub](https://github.com/nvharish/micro-xpress-utils).
+1. Fork the repository from [GitHub](https://github.com/nvharish/micro-xpress-core).
 2. Clone your forked repository locally:
     ```bash
-    git clone https://github.com/nvharish/micro-xpress-utils.git
-    cd micro-xpress-utils
+    git clone https://github.com/nvharish/micro-xpress-core.git
+    cd micro-xpress-core
     ```
 
 #### Step 2: Create a New Branch
