@@ -7,19 +7,24 @@ const loadRoutes = require('./src/loadRoutes');
  * @author N V Harish <nv.harish@outlook.com>
  * @param {string} doc Swagger specification document
  * @param {Object} handler Handler object to handle the API routes specified in Swagger spec
+ * @param {Object|null} options Optional settings
  * @example const microxpress = require('@micro-xpress/core');
  * const fs = require('fs');
  * const handler = require('./src/api');
  * const doc = fs.readLineSync('/home/workspace/api.yaml', 'utf-8');
  * microxpress(doc, handler);
  */
-module.exports = function (doc, handler) {
+module.exports = function (doc, handler, options = null) {
     process.loadEnvFile();
     const app = express();
     const router = express.Router();
 
     app.use(express.json());
     app.use(logger());
+
+    if (options && Object.hasOwn(options, 'authHandler')) {
+        app.use(options.authHandler);
+    }
 
     app.use(loadRoutes(doc, handler, router));
     // eslint-disable-next-line no-unused-vars

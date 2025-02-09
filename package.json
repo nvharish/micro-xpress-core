@@ -15,6 +15,9 @@
         "type": "git",
         "url": "git+https://github.com/nvharish/micro-xpress-core.git"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "keywords": [
         "micro-xpress-core",
         "micro-xpress",
