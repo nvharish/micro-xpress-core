@@ -1,6 +1,6 @@
 {
     "name": "@micro-xpress/core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Minimalistic, fast and powerful node.js microservice framework.",
     "main": "index.js",
     "scripts": {
