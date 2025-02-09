@@ -23,6 +23,7 @@ module.exports = function (doc, handler, options = null) {
     app.use(logger());
 
     if (options && Object.hasOwn(options, 'authHandler')) {
+        app.use(express.static('public'));
         app.use(options.authHandler);
     }
 
